@@ -1,0 +1,182 @@
+.investorsPage {
+  width: 100%;
+  padding: 60px 100px;
+}
+
+.investorsPage__container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.investorsPage__title {
+  font-family: Arial, sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.15;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.investorsPage__subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.6;
+  text-align: left;
+  margin-top: 14px;
+}
+
+.investorsPage__grid {
+  display: grid;
+  grid-template-columns: 1.7fr 0.9fr;
+  gap: 40px;
+  align-items: start;
+  margin-top: 18px;
+}
+
+.investorsPage__left {
+  min-width: 0;
+}
+
+.investorsPage__right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 46px;
+}
+
+.investorsPage__section {
+  margin-top: 46px;
+}
+
+.investorsPage__deckCard {
+  width: 100%;
+  max-width: 360px;
+  display: block;
+  padding: 18px 18px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.investorsPage__deckCard:hover {
+  transform: translateY(-1px);
+  border-color: rgba(74, 144, 226, 0.6);
+  background: rgba(74, 144, 226, 0.06);
+}
+
+.investorsPage__deckEyebrow {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.investorsPage__deckTitle {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.investorsPage__deckCta {
+  margin-top: 14px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #4A90E2;
+  display: inline-block;
+  border-bottom: 2px solid rgba(74, 144, 226, 0.45);
+  padding-bottom: 3px;
+}
+
+.investorsPage__sectionTitle {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.35;
+  margin-bottom: 12px;
+}
+
+.investorsPage__text {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.85;
+  margin-top: 14px;
+}
+
+.investorsPage__label {
+  font-weight: 700;
+}
+
+.investorsPage__iconRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 360px;
+  margin-top: 18px;
+}
+
+.investorsPage__iconBtn {
+  height: 48px;
+  padding: 0 14px 0 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.65);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.investorsPage__iconBtn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(74, 144, 226, 0.6);
+  background: rgba(74, 144, 226, 0.06);
+}
+
+.investorsPage__icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  display: block;
+}
+
+.investorsPage__iconText {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+}
+
+@media (max-width: 1100px) {
+  .investorsPage {
+    padding: 40px 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .investorsPage__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .investorsPage__right {
+    padding-top: 0;
+  }
+}
+

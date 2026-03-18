@@ -1,0 +1,57 @@
+.careersPage {
+  width: 100%;
+  padding: 60px 100px;
+}
+
+.careersPage__container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.careersPage__title {
+  font-family: Arial, sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.15;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.careersPage__subtitle {
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.5;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.careersPage__section {
+  margin-top: 42px;
+}
+
+.careersPage__sectionTitle {
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #000000;
+  line-height: 1.35;
+  margin-bottom: 12px;
+}
+
+.careersPage__text {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.8;
+}
+
+@media (max-width: 1100px) {
+  .careersPage {
+    padding: 40px 24px;
+  }
+}
+

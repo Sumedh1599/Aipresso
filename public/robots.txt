@@ -1,3 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.aipresso.uk/sitemap.xml
+
+# Crawl delay (optional, adjust as needed)
+Crawl-delay: 1

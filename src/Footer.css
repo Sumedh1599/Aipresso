@@ -1,0 +1,105 @@
+.siteFooter {
+  width: 100%;
+  padding: 60px 100px;
+  margin-top: 60px;
+}
+
+.siteFooter__container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.siteFooter__title {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: #000000;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.siteFooter__text {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.85;
+  margin-top: 16px;
+}
+
+.siteFooter__ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 22px;
+}
+
+.siteFooter__cta {
+  height: 48px;
+  padding: 0 14px 0 12px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.65);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  color: #000000;
+}
+
+.siteFooter__cta:hover {
+  transform: translateY(-1px);
+  border-color: rgba(74, 144, 226, 0.6);
+  background: rgba(74, 144, 226, 0.06);
+}
+
+.siteFooter__ctaIcon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  display: block;
+}
+
+.siteFooter__ctaText {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.siteFooter__divider {
+  margin-top: 30px;
+  height: 1px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.siteFooter__company {
+  margin-top: 22px;
+}
+
+.siteFooter__companyName {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.siteFooter__companyLine {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+
+@media (max-width: 1100px) {
+  .siteFooter {
+    padding: 40px 24px;
+  }
+}
+
