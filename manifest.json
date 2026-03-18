@@ -1,0 +1,31 @@
+{
+  "short_name": "AIpresso",
+  "name": "AIpresso - We Brew AI That Works For You",
+  "description": "AIpresso builds personalized AI platforms and apps that adapt to how you work. Experience AI that learns from you, not the other way around.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "https://www.aipresso.uk/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "scope": "https://www.aipresso.uk/",
+  "categories": ["productivity", "utilities", "ai", "technology"]
+}

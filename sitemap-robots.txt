@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /tmp/
+Disallow: /cache/
+Disallow: /*.json$
+
+# Allow all other files
+Allow: /
+
+# Sitemap
+Sitemap: https://www.aipresso.uk/sitemap.xml
