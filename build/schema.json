@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AIpresso",
+  "url": "https://www.aipresso.uk",
+  "logo": "https://www.aipresso.uk/logo512.png",
+  "description": "AIpresso builds personalized AI platforms and apps that adapt to how you work. Experience AI that learns from you, not the other way around.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "url": "https://www.aipresso.uk/contact"
+  },
+  "founder": {
+    "@type": "Person",
+    "name": "Sumedh Patil",
+    "jobTitle": "Founder & CEO"
+  },
+  "sameAs": [
+    "https://twitter.com/aipresso",
+    "https://github.com/aipresso"
+  ],
+  "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Personalized AI", "AI Platforms", "Natural Language Processing"],
+  "areaServed": "Worldwide",
+  "foundingDate": "2025"
+}
