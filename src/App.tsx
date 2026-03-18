@@ -142,7 +142,7 @@ function App() {
                 <div className="product-info">
                   <h3 className="product-subtitle">One Workspace. Every Tool. Built Around You.</h3>
                   <p className="product-description">AI tools that multiply unified in one workspace, personalized to how you think, and built to grow with you.</p>
-                  <button className="read-more-product">Read more</button>
+                  <button className="read-more-product" onClick={() => window.open('https://www.verbll.com', '_blank')}>Read more</button>
                 </div>
               </div>
             </div>
@@ -157,7 +157,10 @@ function App() {
               <div className="why-content">
                 <div className="why-title">Why I Built AIpresso</div>
                 <div className="why-description">When AI race began, I did not watch from the sidelines—I started building. Self-taught developer, first SaaS shipped in three months, open-sourced tools on GitHub. But every time I built to learn faster, I switched between five tools to finish one task. No platform connected them. No platform adapted to me. A $29 billion market selling generic content to every unique individual—and calling it progress. I was living inside the gap. Aipresso is my answer: a company built to join the AI revolution with products that actually learn how you think. Verbll is the first. More are coming.</div>
-                <button className="why-signature-btn">Meet Sumedh →</button>
+                <div className="why-signature">
+                  <div className="why-name">- Sumedh Patil</div>
+                  <div className="why-title-small">Founder</div>
+                </div>
               </div>
             </div>
           </div>
