@@ -1,5 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Disallow: /nolink/
+Disallow: /*nolink
 Allow: /
 
 # Sitemap location
