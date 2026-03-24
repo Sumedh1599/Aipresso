@@ -130,19 +130,33 @@ function App() {
                 <h2 className="products-title">Our Platforms</h2>
               </div>
               <div className="products-content">
-                <div className="mini-cards-row">
-                  <div className="mini-card">
-                    <div className="mini-card-text">VERBLL</div>
+                <div className="platform-columns">
+                  <div className="platform-column">
+                    <div className="mini-card">
+                      <div className="mini-card-text">VERBLL</div>
+                    </div>
+                    <div className="product-info">
+                      <h3 className="product-subtitle">One Workspace. Every Tool. Built Around You.</h3>
+                      <p className="product-description">AI tools that multiply unified in one workspace, personalized to how you think, and built to grow with you.</p>
+                      <button type="button" className="read-more-product" onClick={() => window.open('https://www.verbll.com', '_blank')}>Read more</button>
+                    </div>
                   </div>
-                  <div className="mini-card">
-                    <div className="mini-card-text">More Apps</div>
-                    <div className="mini-card-desc">Coming soon</div>
+                  <div className="platform-column">
+                    <div className="mini-card mini-card--effectt">
+                      <div className="mini-card-text">EFFECTT</div>
+                    </div>
+                    <div className="product-info">
+                      <h3 className="product-subtitle">One Mirror. Every Decision. Finally Making Sense</h3>
+                      <p className="product-description">The App that studies how you think, traces what shapes your choices, and reflects back the patterns you&apos;ve been living inside — without ever knowing it.</p>
+                      <button type="button" className="read-more-product" onClick={() => window.open('https://effectt.aipresso.uk/', '_blank')}>Read more</button>
+                    </div>
                   </div>
-                </div>
-                <div className="product-info">
-                  <h3 className="product-subtitle">One Workspace. Every Tool. Built Around You.</h3>
-                  <p className="product-description">AI tools that multiply unified in one workspace, personalized to how you think, and built to grow with you.</p>
-                  <button className="read-more-product" onClick={() => window.open('https://www.verbll.com', '_blank')}>Read more</button>
+                  <div className="platform-column">
+                    <div className="mini-card">
+                      <div className="mini-card-text">More Apps</div>
+                      <div className="mini-card-desc">Coming soon</div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
