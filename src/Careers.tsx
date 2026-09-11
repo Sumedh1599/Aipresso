@@ -38,9 +38,9 @@ export default function Careers() {
             Until then
           </div>
           <p className="careersPage__text">
-            Follow the journey. Watch what we build. If Verbll resonates, if the 50/50 revolution sounds like the place
-            you belong, send us what you are working on now. Not for a job. For a conversation that might turn into
-            one.
+            Follow the journey. Watch what we build. If Verbll&apos;s BYOK OpenRouter workspace resonates, if Effectt&apos;s
+            decision companion sounds like the future you want to ship, if the 50/50 revolution feels like home—send us
+            what you are working on now. Not for a job. For a conversation that might turn into one.
           </p>
         </div>
       </div>

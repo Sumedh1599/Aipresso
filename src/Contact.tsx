@@ -14,9 +14,9 @@ export default function Contact() {
           Interested in Being Part of What Comes Next?
         </div>
         <p className="contactPage__text">
-          Verbll is at the threshold of launch — the product is built, the market is ready, and we are looking for the
-          right partners to scale it. If you are an investor, accelerator, or strategic partner who believes
-          personalised AI learning is the future, we would like to hear from you.
+          Verbll is live—BYOK OpenRouter, 400+ models, and a workspace built for Chat, Deep Research, Course Designer,
+          and Image Generation. Effectt is on the way. If you want to collaborate, try the product, share feedback, or
+          build with us, we would like to hear from you.
         </p>
 
         <div className="contactPage__iconRow" aria-label="Contact links">
@@ -47,4 +47,3 @@ export default function Contact() {
     </div>
   );
 }
-

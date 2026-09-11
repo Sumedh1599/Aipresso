@@ -1,7 +1,7 @@
 import React from 'react';
 import './Blog.css';
 
-const EARLY_ACCESS_URL = 'https://www.verbll.com';
+const VERBLL_URL = 'https://www.verbll.com';
 
 export default function Blog() {
   return (
@@ -9,101 +9,94 @@ export default function Blog() {
       <div className="blogPage__container">
         <header className="blogPage__header">
           <div className="blogPage__title" role="heading" aria-level={1}>
-            Why I Built 7 AI Tools Instead of Buying One
+            Why We Built Verbll on OpenRouter BYOK
           </div>
           <p className="blogPage__meta">Aipresso Blog</p>
         </header>
 
         <div className="blogPage__body">
           <p className="blogPage__lead">
-            I was switching between five apps to finish one task. ChatGPT for answers. Notion for notes. YouTube for
-            tutorials. A code editor for practice. A course platform for structure. Five logins. Five interfaces. Zero
-            memory of what I did yesterday.
+            I was switching between five apps to finish one task—and paying for AI three different ways. Chat for
+            answers. A research tool for depth. A course builder for structure. An image tool for drafts. Each login
+            started from zero. Each vendor took a cut on top of the model. I was not just fragmented. I was
+            overpaying for less control.
           </p>
           <p className="blogPage__text">
-            Every tool treated me like a stranger. Every session started from zero. I was paying for premium AI and
-            getting generic output because none of these platforms knew how I think, what I already knew, or how I learned
-            best.
+            The gap was obvious: the industry sells &quot;AI platforms&quot; that wrap a few models, mark up inference,
+            and lock you into their stack. I wanted the opposite—a serious workspace with dashboards and tools, while
+            I keep my own key and pick from hundreds of models.
           </p>
-          <p className="blogPage__text">So I stopped complaining and started building.</p>
+          <p className="blogPage__text">So I stopped complaining and started building Verbll.</p>
 
           <div className="blogPage__sectionTitle" role="heading" aria-level={2}>
-            The gap nobody is closing
+            Bring your own key. Keep the leverage.
           </div>
           <p className="blogPage__text">
-            The AI race is obsessed with bigger models. More parameters. Faster tokens. But the real problem is not
-            intelligence—it is context. A $29 billion edtech market sells the same content to every unique individual
-            and calls it personalized learning. It is not. It is a playlist with your name on it.
+            Verbll is live as a BYOK (bring your own key) product integrated with OpenRouter. You add your OpenRouter
+            API key. We provide the platform: Chat, Deep Research, Course Designer, Image Generation, and the
+            dashboards that tie them together. You get access to 400+ OpenRouter models—the best models for the job,
+            not whatever a single vendor decided to bundle.
           </p>
           <p className="blogPage__text">
-            I wanted a workspace that learned me. Not a chatbot that forgot me. Not a course that assumed my starting
-            point. One system where AI chat, research, coding, notes, and course creation talk to each other and adapt to
-            the same profile.
+            That design is why costs drop about 10× and usable capacity can jump toward 100× for the same budget. You
+            pay OpenRouter for tokens at transparent rates. You are not subsidising a middleman&apos;s markup on every
+            request. We earn by shipping product—not by taxxing your inference.
           </p>
-          <p className="blogPage__text">That system did not exist. So I built it in 90 days.</p>
 
           <div className="blogPage__sectionTitle" role="heading" aria-level={2}>
-            What Verbll actually is
+            Compliant by design, not by brochure
           </div>
-          <p className="blogPage__text">Seven tools unified into one intelligent workspace:</p>
+          <p className="blogPage__text">
+            Using OpenRouter the right way means respecting their terms, routing through their API, and keeping your
+            credentials under your control. Verbll does not invent a shadow billing layer on top of your key. Your
+            usage lives where it belongs—with you and OpenRouter. That is cleaner for compliance, clearer for
+            accounting, and fairer for teams that already manage API spend.
+          </p>
+
+          <div className="blogPage__sectionTitle" role="heading" aria-level={2}>
+            What ships in the workspace
+          </div>
+          <p className="blogPage__text">One intelligent workspace, not five tabs:</p>
           <ul className="blogPage__list">
             <li>
-              <strong>AI Chat</strong> that remembers full context across sessions
+              <strong>Chat</strong> — full conversations powered by the models you choose
             </li>
             <li>
-              <strong>Brainstorm</strong> with four AI agents debating your problem
+              <strong>Deep Research</strong> — structured investigation without bouncing between tools
             </li>
             <li>
-              <strong>Code Now</strong> with integrated teaching and debugging
+              <strong>Course Designer</strong> — curricula built around your goals
             </li>
             <li>
-              <strong>Course Designer</strong> that builds curriculum around your goals
+              <strong>Image Generation</strong> — visual drafts in the same place you think
             </li>
             <li>
-              <strong>Deep Research</strong> unifying search, PDFs, and knowledge graphs
-            </li>
-            <li>
-              <strong>Video Summarizer</strong> extracting insights without watching hours
-            </li>
-            <li>
-              <strong>My Notes</strong> as persistent second brain across all tools
+              <strong>Dashboards</strong> — visibility into how you work and what you use
             </li>
           </ul>
-          <p className="blogPage__text">But the tools are not the product. The intelligence underneath is.</p>
+          <p className="blogPage__text">More tools are on the roadmap. The foundation stays the same: your key, our platform, any model.</p>
 
           <div className="blogPage__sectionTitle" role="heading" aria-level={2}>
-            The 12-challenge engine
+            How the idea became a company
           </div>
           <p className="blogPage__text">
-            Before you use anything, Verbll maps how you think. Twelve game-based challenges across five cognitive
-            dimensions. Not a quiz. A benchmark measuring how you process information, reason under pressure, and where
-            your instincts are strong or need support.
+            Aipresso started from a personal failure mode: learning and shipping AI while drowning in fragmented tools
+            and opaque bills. Verbll is the first product that answers that—live today at{' '}
+            <a href={VERBLL_URL} target="_blank" rel="noopener noreferrer">
+              verbll.com
+            </a>
+            . Effectt is next: a companion that studies how you decide and helps you see the next step without taking
+            the wheel.
           </p>
           <p className="blogPage__text">
-            That profile becomes the engine. Your chat responds differently than anyone else&apos;s. Your courses
-            structure around your actual learning style. Your research surfaces what you need, not what&apos;s popular.
-            The longer you use it, the sharper it gets.
-          </p>
-
-          <div className="blogPage__sectionTitle" role="heading" aria-level={2}>
-            Built in public, shipped fast
-          </div>
-          <p className="blogPage__text">
-            I open-sourced components along the way. EST tokenizer hitting 55% compression on PyPI. MCP servers for
-            the Claude ecosystem. Every tool is backed by code I wrote, tested, and shared—not borrowed demos or black
-            boxes.
-          </p>
-          <p className="blogPage__text">
-            Verbll is live now. Early access cohorts are learning with it. The waitlist is growing. And we are just
-            starting.
-          </p>
-          <p className="blogPage__text">
-            This is not another AI wrapper. This is where serious learning actually happens.
+            We still open-source what we can—EST on PyPI, MCP tooling for the Claude ecosystem—because platforms should
+            be built in public when it helps the craft. But the product promise is simple: personal AI that does not
+            punish you for using it.
           </p>
 
           <p className="blogPage__cta">
-            <a className="blogPage__ctaLink" href={EARLY_ACCESS_URL} target="_blank" rel="noopener noreferrer">
-              Join the early access list →
+            <a className="blogPage__ctaLink" href={VERBLL_URL} target="_blank" rel="noopener noreferrer">
+              Open Verbll →
             </a>
           </p>
         </div>
